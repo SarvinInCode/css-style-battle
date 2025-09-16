@@ -1,16 +1,11 @@
-/* Grundläggande stilar */
+/* Grundläggande */
 body {
   background-color: #f4f4f4;
   color: #000;
   font-family: sans-serif;
+  line-height: 1.5;
   margin: 0;
   padding: 0;
-  line-height: 1.5;
-}
-
-p {
-  color: #000;
-  line-height: 1.5;
 }
 
 a {
@@ -20,4 +15,19 @@ a {
 
 a:hover {
   color: red;
+}
+
+/* Rubriker */
+h1 {
+  color: #003366;
+  text-align: center;
+}
+
+h2 {
+  color: darkgreen;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-style: italic;
 }
