@@ -31,3 +31,14 @@ h2 {
 h3 {
   font-style: italic;
 }
+
+/* Listor */
+ul, ol {
+  border: 1px solid #ccc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+ul li, ol li {
+  padding: 5px;
+}
